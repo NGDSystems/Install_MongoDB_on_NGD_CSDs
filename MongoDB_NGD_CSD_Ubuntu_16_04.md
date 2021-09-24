@@ -29,10 +29,3 @@ sudo service mongod stop
 
 sudo vim /etc/mongod.conf
 
-'     fsdfsdf
-    I love :coffee: , :pizza:  
-     sdfasdf
-'
-dfsd
-
-
