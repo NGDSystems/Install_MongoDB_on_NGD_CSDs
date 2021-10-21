@@ -1,4 +1,4 @@
-# Installing MongoDB on NGD CSDs with Ubuntu 16 OS
+# Installing MongoDB on NGD CSDs with Ubuntu 16.04 OS
 Here are some simple commands to install MongoDB on NGD Systems CSD (Computational Storage Drive) when using Ubuntu 16.04 as its OS.
 
 ```
