@@ -10,7 +10,6 @@ sudo apt-get -f install
 sudo service mongod start
 ```
 
-
 Entering the MongoDB environment:
 ```
 mongo localhost:27017
