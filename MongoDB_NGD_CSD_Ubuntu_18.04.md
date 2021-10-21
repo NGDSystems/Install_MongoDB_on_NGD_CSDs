@@ -1,35 +1,15 @@
-I hope you are safe at home with your family.
+# Installing MongoDB on NGD CSDs with Ubuntu 18.04 and Ubuntu 20.04 OS 
+Here are some simple commands to install MongoDB on NGD Systems CSD (Computational Storage Drive) when using Ubuntu 18.04 and later as its OS.
 
-Here is simple command to install MongodB on InSitu when running Ubuntu 16.04
-
-# install arm Ubuntu 16
-
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
-
-echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
-
-sudo apt-get update
-
-sudo apt-get install -y mongodb-org
-
-sudo apt-get -f install
-
-sudo service mongod start
-
-// entering to mongodb environment:
-
-mongo localhost:27017
-
->help
-
->exit
-
- 
-
- 
-
-// changing inSitu ip address:
-
-sudo service mongod stop
-
-sudo vim /etc/mongod.conf
+```
+mkdir ~/mongodb
+cd ~/mongodb
+wget https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-database-tools-extra_5.0.3_arm64.deb
+wget https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-database_5.0.3_arm64.deb
+wget https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-mongos_5.0.3_arm64.deb
+wget https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-server_5.0.3_arm64.deb
+wget https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-shell_5.0.3_arm64.deb
+wget https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-tools_5.0.3_arm64.deb
+wget https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org_5.0.3_arm64.deb
+sudo dpkg -i
+```
