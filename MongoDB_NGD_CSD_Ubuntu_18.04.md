@@ -11,5 +11,11 @@ wget https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse
 wget https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-shell_5.0.3_arm64.deb
 wget https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org-tools_5.0.3_arm64.deb
 wget https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/5.0/multiverse/binary-arm64/mongodb-org_5.0.3_arm64.deb
-sudo dpkg -i
+sudo dpkg -i mongodb-org-database-tools-extra_5.0.3_arm64.deb
+sudo dpkg -i mongodb-org-database_5.0.3_arm64.deb
+sudo dpkg -i mongodb-org-mongos_5.0.3_arm64.deb
+sudo dpkg -i mongodb-org-server_5.0.3_arm64.deb
+sudo dpkg -i mongodb-org-shell_5.0.3_arm64.deb
+sudo dpkg -i mongodb-org-tools_5.0.3_arm64.deb
+sudo dpkg -i mongodb-org_5.0.3_arm64.deb
 ```
