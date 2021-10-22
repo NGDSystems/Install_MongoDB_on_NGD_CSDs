@@ -2,9 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/31414094/138504227-e08cfec2-5d68-4a47-ae08-8e63d12ba15f.png)
 
-1- [Setup CSDs Direct MongoDB Configuration Script](./Setup_CSDs_Direct_mongodb.sh)
-2- [Multi YCSB CSDs Direct Trafic Sender Script](./Multi_ycsb_CSDs_Direct.sh)
-3- [Remove CSDs Direct MongoDB Configuration Script](./Remove_CSDs_Direct_mongodb.sh)
+1- [Setup CSDs Direct MongoDB Configuration Script](./Setup_CSDs_Direct_mongodb.sh)\n
+2- [Multi YCSB CSDs Direct Trafic Sender Script](./Multi_ycsb_CSDs_Direct.sh)\n
+3- [Remove CSDs Direct MongoDB Configuration Script](./Remove_CSDs_Direct_mongodb.sh)\n
 
 4- [Setup CSDs MongoDB Configuration Script](./Setup_CSDs_mongodb.sh)
 5- [Multi YCSB CSDs Trafic Sender Script](./Multi_ycsb_CSDs.sh)
