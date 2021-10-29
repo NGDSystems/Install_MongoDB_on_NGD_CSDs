@@ -1,5 +1,5 @@
 
-# Running MongoDB on NGD Systems Computational Storage Drives “CSDs”
+# Running MongoDB on The NGD Systems Computational Storage Drives “CSDs”
 The most cost effective solution for delivering world class performance to your mongoDB Data Nodes. MongoDB was originally engineered to use inexpensive Storage Servers with HDDs at the heart of the cluster. This older HDD technology cannot keep pace with the demands of today’s data intensive applications. Big Data, Analytics, IoT, and AI/ machine learning are just a few of the data hungry applications that need a higher level of performance.
 
 # Replication
