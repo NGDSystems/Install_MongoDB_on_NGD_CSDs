@@ -33,6 +33,5 @@ Installing MongoDB on NGD CSD for Ubuntu 16.04 Click [here](./MongoDB_NGD_CSD_Ub
 
 Installing MongoDB on NGD CSD for Ubuntu 18.04 Click [here](./MongoDB_NGD_CSD_Ubuntu_18.04.md).
 
-
 MongoDB Cluster Running on NGD Computational Storage Devices Click [here](./MongoDB_Cluster/README.md).
 
